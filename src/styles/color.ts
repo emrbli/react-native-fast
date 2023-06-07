@@ -498,7 +498,7 @@ export interface Theme {
 }
 
 export const theme: Theme = {
-    current: colorsLight,
+    current: colorsDark,
 }
 
 
