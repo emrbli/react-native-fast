@@ -7,6 +7,7 @@ export default StyleSheet.create({
         backgroundColor: theme.current.background2,
         // alignItems: 'flex-start',
         // justifyContent: 'center',
+        margin:2,
         borderWidth: 1,
         borderRadius: 10,
     },

@@ -8,6 +8,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/config-plugins": "~6.0.0",
     "expo": "~48.0.18",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",

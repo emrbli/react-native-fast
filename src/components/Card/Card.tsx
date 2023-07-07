@@ -16,16 +16,7 @@ const Card: React.FC<CardProps> = ({ title, label, msg = "You have liked." }: Ca
             <Text style={styles.card_title}>{title}</Text>
             <Text style={styles.card_subTitle}>{label}</Text>
             <View style={{ flexDirection: 'row' }}>
-                <Image
-                    style={{ width: 100, height: 100 }}
-                    resizeMode='cover'
-                    source={{ uri: 'https://avif.io/images/butterfly.avif' }}
-                />
 
-                <SvgUri
-                    style={{ width: 100, height: 100 }}
-                    uri="https://shopify.github.io/restyle/img/shopify-logo.svg"
-                />
             </View>
             {/* <Button title='Button' onPress={() => Alert.alert('Simple Button pressed')} /> */}
             <TouchableOpacity style={styles.card_button_container} onPress={() => Alert.alert(msg)}>
